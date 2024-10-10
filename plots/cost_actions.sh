@@ -1,0 +1,14 @@
+#!/bin/bash
+
+python analytics/plot_costs.py results/task_3_real_data/only-robust*_dnn_adult_linear+seasonal_100_1.0_10_250_20_actions_results.pkl
+python analytics/plot_costs.py results/task_3_real_data/only-robust*_dnn_loan_linear+seasonal_100_1.0_10_250_20_actions_results.pkl
+python analytics/plot_costs.py results/task_3_real_data/only-robust*_dnn_compas_linear+seasonal_100_1.0_10_250_20_actions_results.pkl
+
+python analytics/plot_costs.py results/task_2_syn_data/only-robust*_dnn_linear_linear+seasonal_100_1.0_10_ground_truth_250_20_actions_results.pkl
+python analytics/plot_costs.py results/task_2_syn_data/only-robust*_dnn_non-linear_linear+seasonal_100_1.0_10_ground_truth_250_20_actions_results.pkl
+
+python analytics/plot_costs.py results/task_2_syn_data/only-robust*_dnn_linear_linear_100_1.0_10_ground_truth_250_20_actions_results.pkl
+python analytics/plot_costs.py results/task_2_syn_data/only-robust*_dnn_non-linear_linear_100_1.0_10_ground_truth_250_20_actions_results.pkl
+
+python analytics/plot_costs.py results/task_2_syn_data/only-robust*_dnn_linear_seasonal_100_1.0_10_ground_truth_250_20_actions_results.pkl
+python analytics/plot_costs.py results/task_2_syn_data/only-robust*_dnn_non-linear_seasonal_100_1.0_10_ground_truth_250_20_actions_results.pkl
